@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page 1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: #D6D3F0;
+        }
+
+        nav {
+            background-color: #2E5339;
+            width: 200px;
+            height: 100vh;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            display: block;
+            color: #FFEC51;
+            padding: 15px;
+            margin: 10px;
+            text-decoration: none;
+            text-align: center;
+            background-color: #72A98F;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #C6B9CD;
+        }
+
+        nav a.active {
+            background-color: #FFEC51;
+            color: #2E5339;
+        }
+
+        main {
+            padding: 40px;
+            flex-grow: 1;
+        }
+
+        h1 {
+            color: #2E5339;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #72A98F;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        section {
+            background-color: #C6B9CD;
+            padding: 20px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="page1.html" class="active">Page 1</a>
+        <a href="page2.html">Page 2</a>
+    </nav>
+
+    <main>
+        <h1>Welcome to Page 1</h1>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum, eros at tincidunt egestas, turpis justo malesuada justo, nec cursus magna velit ut nulla.</p>
+            <p>Phasellus consequat nisi vel sapien dignissim, sed suscipit risus dictum. Morbi aliquam, velit id varius scelerisque, nisl leo varius leo, in efficitur eros magna nec ipsum.</p>
+        </section>
+    </main>
+
+</body>
+</html>
